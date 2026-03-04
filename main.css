@@ -1,0 +1,50 @@
+:root {
+  --charcoal: #121212;
+  --saffron: #F4A261;
+  --gold: #D4AF37;
+  --offwhite: #FAF9F6;
+}
+
+body {
+  background-color: var(--charcoal);
+  color: var(--offwhite);
+}
+
+.bg-charcoal { background-color: var(--charcoal); }
+.bg-saffron { background-color: var(--saffron); }
+.text-gold { color: var(--gold); }
+.text-saffron { color: var(--saffron); }
+.text-offwhite { color: var(--offwhite); }
+.text-charcoal { color: var(--charcoal); }
+
+.filter-btn.active {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.menu-card-image-wrapper {
+  overflow: hidden;
+}
+
+.menu-card:hover .menu-card-image {
+  transform: scale(1.05);
+}
+
+.magnetic-btn {
+  display: inline-flex;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--charcoal);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
